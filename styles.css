@@ -1,0 +1,298 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Gagalin';
+    src: url(font/Gagalin-Regular.ttf);
+}
+@font-face {
+    font-family: 'Body-font';
+    src: url(font/KdamThmorPro-Regular.ttf);
+}
+.bg1{
+    background-image: url('IMAGES/background-naruto.jpeg');
+}
+.bg2{
+    background-image: url('IMAGES/naruto-bg2.jpg');
+}
+.demon-bg{
+    background-image: url('IMAGES/demonslayerback.jpeg');
+}
+.one-piece{
+    background-image: url('IMAGES/onepieceback.jpeg');
+}
+body {
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+nav{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    min-height: 11vh;
+    background-color: black;
+    gap:0.5rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+main{
+    font-family: 'Body-font', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    word-spacing: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    /* min-height: calc(100vh - 22.4vh); */
+    flex:1;
+    margin: 1.5rem 0 0rem 2.5rem;
+    gap: 0.6rem; 
+    width: 60%;
+}
+main > *{
+    margin: 0;
+}
+.link {
+    color: #474747;
+}
+nav > a{
+    flex:.5;
+}
+.nav-content {
+    white-space: nowrap;
+    font-family: 'Gagalin';
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 1.9rem;
+}
+.nav-content:hover {
+    cursor: pointer;
+    background-color: #fbec69;
+    color: black;
+    transition: 0.2s;
+}
+nav>input {
+    font-size: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    min-width:40%;
+    padding: .7rem;
+    border: 2px;
+    border-radius: .5rem;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    background: #292626;
+    min-height: 8vh;
+    word-spacing: 3px;
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+} 
+.pro-image {
+    margin-bottom: 2rem;
+    width: 100%;
+    border: 2px;
+    border-radius: 34px;
+}
+.Image {
+    height: 15rem;
+    width: 16rem;
+    border-radius: 1px;
+    border-radius: 34px;
+}
+.contact-image{
+    border-radius: 1px;
+    border-radius: 10px;
+}
+
+#nar-pro-main{
+    display: flex;
+    width:auto;
+    font-size: large;
+    margin:0;
+    padding: 2rem 8rem;
+}
+.pro-container {
+    display: flex;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+.heading :hover {
+    cursor: pointer;
+    color: #cc3300;
+    transition: 0.2s;
+}
+
+.links {
+    text-decoration: none;
+    color: #fbec69;
+}
+
+.heading {
+    text-align: center;
+}
+
+.box {
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #1a191a;
+    border: 1px black;
+    border-radius: 30px;
+    margin: 1rem;
+    color: white;
+}
+
+.box-img {
+    display: flex;
+    justify-items: center;
+    flex: 1;
+}
+
+.box-img img {
+    border: 1px;
+    border-radius: 25px;
+}
+
+.buttonlink {
+    text-decoration: none;
+    color: black;
+}
+
+.buttonlink :hover {
+    background-color: #cc3300;
+    color: #fbec69;
+    padding: 0;
+    transition: 0.2s;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+button {
+    font-family: 'Body-font', Arial, Helvetica, sans-serif;
+    background-color: #fbec69;
+    height: 2.25rem;
+    width: 7rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: 1px;
+    border-radius: .5rem;
+    padding: 0 2rem;
+}
+
+#main-div {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem;   
+    margin: 0;
+}
+
+.pro-containe {
+    gap: 1rem;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.pro-info { 
+    color: white;
+    flex: 2;
+    border: 2px;
+    border-radius: 20px;
+    background-color: #1a191a;
+}
+
+.pro-info>* {
+    margin: 2rem;
+}
+
+.pro-info li>a{
+    text-decoration: none;
+    color: #fbec69;
+}
+
+.pro-info li>a:hover{
+    color: #cc3300;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.product-img {
+    border: 2px;
+    border-radius: 20px;
+    background-color: #1a191a;
+    padding: 1.5rem;
+    flex: 1;
+}
+
+.pr-img {
+    border: 2px;
+    border-radius: 20px;
+}
+
+#button {
+    width: 11rem;
+    background-color: #fbec69;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: #cc3300;
+    color: #fbec69;
+    transition: 0.2s;
+}
+#price{
+    font-size: 1.2rem;
+}
+
+
+@media screen and (max-width:1000px) {
+    main{
+        width: unset;
+        margin-right: 2rem;
+    }  
+}
+@media screen and (max-width:1200px) {
+    .pro-container {
+        flex-flow: column;
+        margin-right: 2rem;
+    }
+}
+@media screen and (max-width: 2000px) {
+    nav {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        width: auto;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .pr-img{
+        width: 100%;
+    }
+    .pro-containe{
+        display: flex;
+        flex-flow: column;
+    }
+    .footer{
+        text-align: center;
+    }
+}
