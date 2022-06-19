@@ -268,7 +268,7 @@ button {
         margin-right: 2rem;
     }  
 }
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1000px) {
     .pro-container {
         flex-flow: column;
         margin-right: 2rem;
@@ -282,7 +282,7 @@ button {
         width: auto;
     }
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1000px) {
     .pr-img{
         width: 100%;
     }
